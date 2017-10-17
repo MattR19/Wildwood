@@ -1,0 +1,178 @@
+.canvas{
+background-size:cover;
+}
+
+.header{
+ background-color: rgba(255, 255, 255, 0.7);
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  font-size:80px;
+  letter-spacing:5px;
+  text-align: center;
+  width: 100%;
+  height:100px;
+  z-index: 10000;
+  font-family: 'Cabin', Arial, sans-serif;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255,255,255,.91); 
+}
+
+
+.picture{
+width: 400px;
+height: 711px;
+border:solid blue 5px;
+background: url("file:///Users/Matthew/Documents/Wildwood/IMG_0045.jpg") no-repeat;
+background-size:contain;
+display:inline-block;
+float:left;
+position:relative;
+}
+
+.caption{
+font-size:20px;
+font-family: 'Work Sans', sans-serif;
+letter-spacing: 3px;
+margin-top: 630px;
+margin-left: 5px;
+height:50px;
+width:320px;
+padding-top:10px;
+}
+
+#MexPic{
+border:solid cyan 4px;
+background: url("file:///Users/Matthew/Documents/Wildwood/IMG_0050.jpg") no-repeat;
+background-size:cover;
+height: 400px;
+width: 1000px;
+display:inline-block;
+}
+
+.MexCaption{
+letter-spacing: 10px;
+width: 530px;
+margin-top: 330px; 
+margin-left: 30px;
+font-size:38px;
+font-family:'Amatic SC', cursive;
+}
+
+#Wildwood{
+background-image: url("file:///Users/Matthew/Documents/Wildwood/IMG_0047.jpg");
+background-size: cover;
+border: solid white;
+width: 400px;
+height: 700px;
+float: left;
+display: block;
+
+}
+
+.WWcaption{
+font-family: 'Abel',sans-serif;
+font-size:23px;
+letter-spacing:1.2px;
+height:30px;
+margin-top:0px
+}
+
+.blockText{
+border: solid green;
+float:right;
+width:600px;
+height:200px;
+display:inline;
+text-align:center;
+color: white;
+font-size: 40px;
+line-height:200px;
+font-family: 'Abel',sans-serif;
+letter-spacing: 8px;
+font-weight: bold;
+background:url(https://www.wildwoodinsider.com/wp-content/uploads/2016/08/Starlux-mini-golf.jpg)  no-repeat center center;
+background-size:cover;
+}
+
+#MiniGolf{
+    background: url("file:///Users/Matthew/Documents/Wildwood/IMG_0051.jpg") no-repeat;
+    background-size:cover;
+    height: 600px;
+    width:500px;
+    float:right;
+    border: solid black;
+}
+
+.MGcaption{
+font-family: 'Cabin', Arial, sans-serif;
+font-size: 25px;
+padding-bottom: 10px;
+width:350px;
+margin-left:15px;
+margin-top: 110px;
+border-radius:5%;
+}
+
+#comfirmation{
+ border: solid red;
+ height:490px;
+ width: 96px;
+ float:right;   
+ background: url("file:///Users/Matthew/Documents/Wildwood/Comfirmation.jpg") no-repeat center center;
+background-size:cover;
+}
+
+#FourthPic{
+background: url("file:///Users/Matthew/Documents/Wildwood/Four.jpg") no-repeat;
+background-size: cover;
+border: solid black 5px;
+width: 400px;
+height: 600px;
+float: left;
+position:relative;
+top:-393px;
+}
+
+.FourthCaption{
+background-color: rgba(0, 0, 0, 0.7);
+text-align: center;
+font-family: 'Abel',sans-serif;
+letter-spacing: 5px;
+}
+
+#NYRBpic{
+background: url("file:///Users/Matthew/Documents/Wildwood/NYRB.jpg") no-repeat;
+border:solid blue 5px;
+position:relative;
+top:923px;
+height:600px;
+width:400px;
+background-size:cover;
+}
+
+.NYRBcaption{
+font-family: 'Cabin', Arial, sans-serif;
+height:100px;  
+content: "abcd";  
+position: relative;
+}
+
+#LastPic{
+border:solid purple 4px;
+background-image: url("file:///Users/Matthew/Documents/Wildwood/IMG_0046.jpg");
+background-size: cover;
+height:820px;
+width:500px;
+float:right;	
+}
+
+body {
+	background: #EEEFF1;
+	z-index:-1;
+	position: relative;
+	margin-top:100px;
+	}
